@@ -1,0 +1,43 @@
+{
+	"pattrstorage" : 	{
+		"name" : "BAT",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"settings::BATmodulelist" : [ "BATshuffle" ],
+					"settings::BATcave_window_pos" : [ 58, 81 ],
+					"settings::BATshuffle::grainshapeslider" : [ 0 ],
+					"settings::BATshuffle::graindensityLO" : [ 30 ],
+					"settings::BATshuffle::graindensityHI" : [ 100 ],
+					"settings::BATshuffle::graintranspositionLO" : [ 55 ],
+					"settings::BATshuffle::graintranspositionHI" : [ 55 ],
+					"settings::BATshuffle::window_pos" : [ 1114, 667 ],
+					"settings::BATshuffle::functionmenuA" : [ "hamming", "hanning", "blackman", "kaiser", "triangle" ],
+					"settings::BATshuffle::windowmenupresets" : [ 5 ],
+					"settings::BATshuffle::userfunctions::userfunction1" : [ 1, 0.0, 0.0, 128.0, 0.125, 256.0, 0.25, 394.022371364653225, 0.0, 512.0, 0.5, 640.0, 0.625, 768.0, 0.75, 896.0, 0.875, 1024.0, 0.9990234375, 1152.0, 0.8740234375, 1280.0, 0.7490234375, 1408.0, 0.6240234375, 1536.0, 0.4990234375, 1664.0, 0.3740234375, 1792.0, 0.2490234375, 1920.0, 0.1240234375, 2048.0, 0.0 ],
+					"settings::BATshuffle::userfunctions::userfunction2" : [ 2, 0.0, 0.014873337000608, 128.0, 0.067261733114719, 256.0, 0.163724809885025, 384.0, 0.306039601564407, 512.0, 0.483322501182556, 640.0, 0.672176659107208, 788.044742729306449, 0.0, 896.0, 0.958271741867065, 1024.0, 0.999999344348907, 1152.0, 0.957626461982727, 1280.0, 0.839960932731628, 1408.0, 0.670734882354736, 1536.0, 0.481855243444443, 1664.0, 0.304769366979599, 1792.0, 0.162788107991219, 1920.0, 0.066691190004349, 2048.0, 0.014873337000608 ],
+					"settings::BATshuffle::userfunctions::userfunction3" : [ 3, 0.0, -0.0, 128.0, 0.014665491878986, 256.0, 0.066582284867764, 384.0, 0.172355636954308, 512.0, 0.340383678674698, 640.0, 0.555216193199158, 768.0, 0.773960113525391, 896.0, 0.938764870166779, 1024.0, 0.999999403953552, 1136.250559284116434, 0.0, 1280.0, 0.772874474525452, 1408.0, 0.553797960281372, 1536.0, 0.338848948478699, 1664.0, 0.170938283205032, 1792.0, 0.065498322248459, 1920.0, 0.014080081135035, 2048.0, -0.000001505977366 ],
+					"settings::BATshuffle::userfunctions::userfunction4" : [ 4, 0.0, 0.0, 128.0, 0.125, 256.0, 0.25, 384.0, 0.375, 512.0, 0.5, 640.0, 0.625, 768.0, 0.75, 896.0, 0.875, 1024.0, 0.9990234375, 1152.0, 0.8740234375, 1280.0, 0.7490234375, 1511.946308724832306, 0.0, 1536.0, 0.4990234375, 1664.0, 0.3740234375, 1792.0, 0.2490234375, 1920.0, 0.1240234375, 2048.0, 0.0 ],
+					"settings::BATshuffle::userfunctions::userfunction5" : [ 5, 0.0, 0.0, 128.0, 0.125, 256.0, 0.25, 384.0, 0.375, 467.328859060402692, 0.0, 512.0, 0.5, 640.0, 0.625, 768.0, 0.75, 896.0, 0.875, 1024.0, 0.9990234375, 1152.0, 0.8740234375, 1280.0, 0.7490234375, 1408.0, 0.6240234375, 1536.0, 0.4990234375, 1664.0, 0.3740234375, 1792.0, 0.2490234375, 1920.0, 0.1240234375, 2048.0, 0.0 ],
+					"settings::BATshuffle::userfunctions::userfunction6" : [ 6, 0.0, 0.0, 128.0, 0.125, 256.0, 0.25, 384.0, 0.375, 531.472035794183398, 0.0, 640.0, 0.625, 768.0, 0.75, 896.0, 0.875, 1024.0, 0.9990234375, 1152.0, 0.8740234375, 1280.0, 0.7490234375, 1408.0, 0.6240234375, 1536.0, 0.4990234375, 1664.0, 0.3740234375, 1792.0, 0.2490234375, 1920.0, 0.1240234375, 2048.0, 0.0 ],
+					"settings::BATshuffle::userfunctions::userfunction7" : [ 0 ],
+					"settings::BATshuffle::userfunctions::userfunction8" : [ 0 ],
+					"settings::BATshuffle::userfunctions::userfunction9" : [ 0 ],
+					"settings::BATshuffle::userfunctions::userfunction10" : [ 0 ],
+					"settings::BATshuffle::userfunctions::userfunction11" : [ 0 ],
+					"settings::BATshuffle::userfunctions::userfunction12" : [ 0 ],
+					"settings::BATshuffle::userfunctions::userfunction13" : [ 0 ],
+					"settings::BATshuffle::userfunctions::userfunction14" : [ 0 ],
+					"settings::BATshuffle::userfunctions::userfunction15" : [ 0 ],
+					"settings::BATshuffle::userfunctions::userfunction16" : [ 0 ],
+					"settings::BATshuffle::functionmenuselectionA" : [ 8 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
