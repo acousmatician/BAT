@@ -1,7 +1,7 @@
 # BAT - Bangor Audio Tools  
 ## v2026.03
 
-[www.andrewlewis.org.uk/BAT](www.andrewlewis.org.uk/BAT)
+[www.andrewlewis.org.uk/BAT](https://www.andrewlewis.org.uk/BAT)
 
 BAT (Bangor Audio Tools) is licenced under the terms of the GNU General Public Licence. You may only make use of it if you agree to abide by the terms of the licence.
 
