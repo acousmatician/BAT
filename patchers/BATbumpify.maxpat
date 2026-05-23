@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 485.0, 836.0, 911.0, 582.0 ],
+		"rect" : [ 579.0, 337.0, 911.0, 582.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
@@ -42,6 +42,19 @@
 		"globalpatchername" : "BATcave[2][1]",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 181.948486000000003, 357.70660399999997, 150.0, 37.0 ],
+					"presentation_linecount" : 3,
+					"text" : "These waveforms are rendered by a seperate buffer. The actual file is  played from disk"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-120",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -72,7 +85,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 741.0, 385.0, 50.0, 19.0 ],
-					"text" : "0"
+					"text" : "1"
 				}
 
 			}
@@ -725,7 +738,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 749.921112499999936, 306.5, 89.017578, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 537.583374000000049, 351.742401123046875, 120.0, 30.5184326171875 ],
+					"presentation_rect" : [ 538.0, 359.0, 120.0, 30.5184326171875 ],
 					"rounded" : 5.0,
 					"text" : "RECORD",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -2838,7 +2851,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 421.0, 162.036865000000034, 332.0, 22.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2857,7 +2870,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 421.0, 138.0, 179.0, 22.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2876,7 +2889,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 425.213897499999803, 320.0, 22.0 ],
-									"restore" : [ "\"AndysAudio6:/In My Craft AUDIO/Pitch Drones/DAAA A4.aif\"" ],
+									"restore" : [ "\"AndysAudio6:/Polar AUDIO/Ice/Ice GRM Tone 1 7min CompNorm.wav\"" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2895,7 +2908,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 401.493469000000005, 167.0, 22.0 ],
-									"restore" : [ "\"AndysAudio6:/In My Craft AUDIO/Pitch Drones/DAAA A4.aif\"" ],
+									"restore" : [ "\"AndysAudio6:/Polar AUDIO/Ice/Ice GRM Tone 1 7min CompNorm.wav\"" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2914,7 +2927,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 373.493469000000005, 355.0, 22.0 ],
-									"restore" : [ 14 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2933,7 +2946,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 349.773040500000207, 202.0, 22.0 ],
-									"restore" : [ 14 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2952,7 +2965,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 215.036865000000034, 334.0, 22.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2971,7 +2984,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 191.0, 181.0, 22.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -3538,14 +3551,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-94",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 509.343871999999976, 247.0, 80.0, 17.0 ],
-					"text" : "\"AndysAudio6:/In My Craft AUDIO/Pitch Drones/DAAA A4.aif\"",
+					"text" : "\"AndysAudio6:/Polar AUDIO/Ice/Ice GRM Tone 1 7min CompNorm.wav\"",
 					"varname" : "soundfile"
 				}
 
@@ -3668,14 +3681,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-20",
-					"linecount" : 2,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 629.731490500000064, 482.459655999999995, 95.0, 33.0 ],
+					"patching_rect" : [ 629.731490500000064, 482.459655999999995, 95.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 257.4324951171875, 208.396171569824219, 642.0263671875, 20.0 ],
-					"text" : "input: BATbuss",
+					"text" : "input: Ice GRM Tone 1 7min CompNorm.wav",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -5930,13 +5943,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-2",
-													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 443.0, 87.0, 50.0, 22.0 ],
-													"text" : "buffer_sizeinsamps 2048"
+													"text" : "18."
 												}
 
 											}
@@ -10449,10 +10461,10 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.090196, 0.211765, 0.184314, 0.522144 ],
-					"bgoncolor" : [ 0.0, 1.0, 0.345098, 1.0 ],
+					"bgcolor" : [ 0.090196078431373, 0.27843137254902, 0.298039215686275, 0.5 ],
+					"bgoncolor" : [ 0.0, 0.980392156862745, 1.0, 1.0 ],
 					"fontsize" : 14.0,
-					"hint" : "Turn audio processing on or off",
+					"hint" : "Deactivate to save CPU while keeping open",
 					"id" : "obj-43",
 					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
@@ -10463,12 +10475,12 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1124.612030999999888, 621.036865000000034, 109.985229000000004, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 537.583374000000049, 271.453674197196904, 120.0, 32.0 ],
+					"presentation_rect" : [ 538.0, 276.0, 120.0, 32.0 ],
 					"rounded" : 3.0,
 					"text" : "INACTIVE",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "ACTIVE",
-					"textoncolor" : [ 0.101961, 0.101961, 0.101961, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
@@ -10488,7 +10500,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1230.110626500000308, 617.285033999999996, 89.017578, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 537.583374000000049, 310.853836000000001, 120.0, 32.0 ],
+					"presentation_rect" : [ 538.0, 317.0, 120.0, 32.0 ],
 					"rounded" : 3.0,
 					"text" : "AUDIO SETTINGS",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -10612,12 +10624,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-17",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 582.651412499999878, 413.206604000000027, 98.0, 19.0 ],
-					"text" : "drag a sound file here"
+					"patching_rect" : [ 582.651412499999878, 413.206604000000027, 98.0, 39.0 ],
+					"text" : "input: \"Ice GRM Tone 1 7min CompNorm.wav\""
 				}
 
 			}
@@ -11033,7 +11046,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 305.0, 305.0, 237.0, 20.0 ],
-									"text" : "\"DAAA A4.aif\""
+									"text" : "\"Ice GRM Tone 1 7min CompNorm.wav\""
 								}
 
 							}
@@ -11088,7 +11101,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 114.666663999999997, 158.0, 50.0, 20.0 ],
-									"text" : "AIFF"
+									"text" : "WAVE"
 								}
 
 							}
@@ -13598,7 +13611,7 @@
 					"fontface" : 1,
 					"fontsize" : 12.0,
 					"id" : "obj-222",
-					"items" : [ "BATcave", ",", "BATfreeze-stereo", ",", "DAC" ],
+					"items" : [ "BATcave", ",", "DAC" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -13737,7 +13750,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 336.5, 98.5, 189.0, 29.0 ],
-					"text" : "$1 29 Jul 2025"
+					"text" : "$1 14 May 2026"
 				}
 
 			}
@@ -13776,7 +13789,7 @@
 					"patching_rect" : [ 56.8515625, 148.0, 127.5, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.162108898162842, 555.6204833984375, 90.0, 17.0 ],
-					"text" : "v 2024.09 29 Jul 2025",
+					"text" : "v 2026.5 14 May 2026",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.5 ]
 				}
 
@@ -13792,7 +13805,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 430.409912109375, 54.5, 74.0, 29.0 ],
-					"text" : "2024.09"
+					"text" : "2026.5"
 				}
 
 			}
@@ -14127,7 +14140,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 204.0, 62.0, 103.0, 19.0 ],
-									"text" : "v 2024.09 29 Jul 2025"
+									"text" : "v 2026.5 14 May 2026"
 								}
 
 							}
@@ -15215,9 +15228,11 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 595.52321998656214, 0.0, 0, 778.950753193468699, 1.0, 0, 1487.648040583789452, 1.0, 0, 1687.750804082233117, 0.0, 0, 2048.0, 0.0, 0, 2048.0, 0.0, 0 ],
-					"bgcolor" : [ 0.0, 0.365, 1.0, 0.32 ],
+					"addpoints" : [ 0.0, 0.0, 0, 64.0, 0.00960735976696, 0, 128.0, 0.038060232996941, 0, 192.0, 0.084265194833279, 0, 256.0, 0.146446615457535, 0, 320.0, 0.222214877605438, 0, 384.0, 0.308658272027969, 0, 448.0, 0.402454853057861, 0, 512.0, 0.5, 0, 576.0, 0.597545146942139, 0, 640.0, 0.691341698169708, 0, 704.0, 0.777785122394562, 0, 768.0, 0.853553414344788, 0, 832.0, 0.915734827518463, 0, 896.0, 0.961939752101898, 0, 960.0, 0.990392625331879, 0, 1024.0, 1.0, 0, 1088.0, 0.990392625331879, 0, 1152.0, 0.961939752101898, 0, 1216.0, 0.915734827518463, 0, 1280.0, 0.853553414344788, 0, 1344.0, 0.777785122394562, 0, 1408.0, 0.691341698169708, 0, 1472.0, 0.597545146942139, 0, 1536.0, 0.5, 0, 1600.0, 0.402454853057861, 0, 1664.0, 0.308658272027969, 0, 1728.0, 0.222214877605438, 0, 1792.0, 0.146446615457535, 0, 1856.0, 0.084265194833279, 0, 1920.0, 0.038060232996941, 0, 1984.0, 0.00960735976696, 0, 2048.0, 0.000002353095169, 0 ],
+					"bgcolor" : [ 0.502, 0.502, 0.502, 0.32 ],
 					"classic_curve" : 1,
+					"clickadd" : 0,
+					"clickmove" : 0,
 					"clicksustain" : 0,
 					"domain" : 2048.0,
 					"gridcolor" : [ 0.5, 0.5, 0.5, 0.5 ],
@@ -15257,7 +15272,7 @@
 					"setunit" : 1,
 					"voffset" : 1.0,
 					"vzoom" : 0.5,
-					"waveformcolor" : [ 0.0, 0.078, 0.322, 0.5 ]
+					"waveformcolor" : [ 0.3, 0.3, 0.3, 0.54 ]
 				}
 
 			}
@@ -15426,7 +15441,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 985.625000000000227, 612.130767000000105, 381.375, 323.459655999999995 ],
-					"pic" : "brushed-green.jpg",
+					"pic" : "brushed-grey.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ -4.0, -6.713135004043579, 919.09375, 592.3336181640625 ]
 				}
@@ -17200,7 +17215,9 @@
 			"obj-115::obj-81" : [ "textbutton[8]", "textbutton", 0 ],
 			"obj-137" : [ "mc.live.gain~[1]", "mc.live.gain~", 0 ],
 			"obj-40" : [ "slider[1]", "slider", 0 ],
+			"obj-48::obj-3" : [ "slider[3]", "slider[3]", 0 ],
 			"obj-503" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
+			"obj-53::obj-3" : [ "slider[2]", "slider[2]", 0 ],
 			"obj-69::obj-6" : [ "textbutton[12]", "textbutton", 0 ],
 			"obj-92" : [ "slider", "slider", 0 ],
 			"parameterbanks" : 			{
@@ -17212,15 +17229,15 @@
 ,
 		"parameter_map" : 		{
 			"midi" : 			{
-				"slider[2]" : 				{
-					"srcname" : "0.ctrl.8.chan.midi",
+				"slider[3]" : 				{
+					"srcname" : "1.ctrl.8.chan.midi",
 					"min" : 0.0,
 					"max" : 127.0,
 					"flags" : 2
 				}
 ,
-				"slider[3]" : 				{
-					"srcname" : "1.ctrl.8.chan.midi",
+				"slider[2]" : 				{
+					"srcname" : "0.ctrl.8.chan.midi",
 					"min" : 0.0,
 					"max" : 127.0,
 					"flags" : 2
@@ -17232,126 +17249,126 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ALlist-thresh.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ALmakeADSR.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "BAT-HSliderLong-transp.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"name" : "BAT-HSliderLong-transpGREY.png",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BAT-knob-horiz-small3-green.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BAT-knob.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "BAT-slider-transp3green.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"name" : "BAT-slider-transp3grey.png",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BATicon.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BATmenu.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_BATfader_long.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_BATfaderhoriz.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "brushed-green.jpg",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"name" : "brushed-grey.jpg",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "centre_dialogue.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dialogue.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "edit_mode_widget.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.BAT_io.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.BATbalance~.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.BATlimiter.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.BATmulti2stereo.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

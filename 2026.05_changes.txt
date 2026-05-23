@@ -1,0 +1,3 @@
+VERSION 2026.03 23.05.2026
+	BATspindrift - fixed missing impulse files
+	BATboids - added impulse reverb and plate size

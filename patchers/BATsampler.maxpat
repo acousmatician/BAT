@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1060.0, 666.0, 807.0, 502.0 ],
+		"rect" : [ 401.0, 585.0, 807.0, 502.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
@@ -426,7 +426,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 62.0, 1141.0, 50.0, 29.0 ],
-					"text" : "midinote 74 0"
+					"text" : "midinote 73 0"
 				}
 
 			}
@@ -1633,9 +1633,8 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"bgcolor" : [ 0.0, 0.365, 1.0, 0.32 ],
+					"bgcolor" : [ 0.0, 0.365, 1.0, 0.0 ],
 					"buffername" : "#0-BATsample8",
-					"chanoffset" : 7,
 					"gridcolor" : [ 0.392156862745098, 0.392156862745098, 0.392156862745098, 0.0 ],
 					"id" : "obj-96",
 					"labels" : 0,
@@ -1651,16 +1650,15 @@
 					"selectioncolor" : [ 0.4, 1.0, 0.4, 0.299919 ],
 					"setmode" : 1,
 					"vticks" : 0,
-					"waveformcolor" : [ 0.784, 0.90200001001358, 1.0, 1.0 ]
+					"waveformcolor" : [ 0.784, 0.90200001001358, 1.0, 0.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"bgcolor" : [ 0.0, 0.365, 1.0, 0.32 ],
+					"bgcolor" : [ 0.0, 0.365, 1.0, 0.0 ],
 					"buffername" : "#0-BATsample8",
-					"chanoffset" : 8,
 					"gridcolor" : [ 0.392156862745098, 0.392156862745098, 0.392156862745098, 0.0 ],
 					"id" : "obj-113",
 					"labels" : 0,
@@ -1674,16 +1672,15 @@
 					"ruler" : 0,
 					"selectioncolor" : [ 0.4, 1.0, 0.4, 0.299919 ],
 					"setmode" : 1,
-					"waveformcolor" : [ 0.784, 0.90200001001358, 1.0, 1.0 ]
+					"waveformcolor" : [ 0.784, 0.90200001001358, 1.0, 0.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"bgcolor" : [ 0.0, 0.365, 1.0, 0.32 ],
+					"bgcolor" : [ 0.0, 0.365, 1.0, 0.0 ],
 					"buffername" : "#0-BATsample8",
-					"chanoffset" : 5,
 					"gridcolor" : [ 0.392156862745098, 0.392156862745098, 0.392156862745098, 0.0 ],
 					"id" : "obj-121",
 					"labels" : 0,
@@ -1699,16 +1696,15 @@
 					"selectioncolor" : [ 0.4, 1.0, 0.4, 0.299919 ],
 					"setmode" : 1,
 					"vticks" : 0,
-					"waveformcolor" : [ 0.784, 0.90200001001358, 1.0, 1.0 ]
+					"waveformcolor" : [ 0.784, 0.90200001001358, 1.0, 0.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"bgcolor" : [ 0.0, 0.365, 1.0, 0.32 ],
+					"bgcolor" : [ 0.0, 0.365, 1.0, 0.0 ],
 					"buffername" : "#0-BATsample8",
-					"chanoffset" : 6,
 					"gridcolor" : [ 0.392156862745098, 0.392156862745098, 0.392156862745098, 0.0 ],
 					"id" : "obj-125",
 					"labels" : 0,
@@ -1722,14 +1718,14 @@
 					"ruler" : 0,
 					"selectioncolor" : [ 0.4, 1.0, 0.4, 0.299919 ],
 					"setmode" : 1,
-					"waveformcolor" : [ 0.784, 0.90200001001358, 1.0, 1.0 ]
+					"waveformcolor" : [ 0.784, 0.90200001001358, 1.0, 0.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"bgcolor" : [ 0.0, 0.365, 1.0, 0.32 ],
+					"bgcolor" : [ 0.0, 0.365, 1.0, 0.0 ],
 					"buffername" : "#0-BATsample8",
 					"chanoffset" : 3,
 					"gridcolor" : [ 0.392156862745098, 0.392156862745098, 0.392156862745098, 0.0 ],
@@ -1747,16 +1743,15 @@
 					"selectioncolor" : [ 0.4, 1.0, 0.4, 0.299919 ],
 					"setmode" : 1,
 					"vticks" : 0,
-					"waveformcolor" : [ 0.784, 0.90200001001358, 1.0, 1.0 ]
+					"waveformcolor" : [ 0.784, 0.90200001001358, 1.0, 0.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"bgcolor" : [ 0.0, 0.365, 1.0, 0.32 ],
+					"bgcolor" : [ 0.0, 0.365, 1.0, 0.0 ],
 					"buffername" : "#0-BATsample8",
-					"chanoffset" : 4,
 					"gridcolor" : [ 0.392156862745098, 0.392156862745098, 0.392156862745098, 0.0 ],
 					"id" : "obj-95",
 					"labels" : 0,
@@ -1770,19 +1765,20 @@
 					"ruler" : 0,
 					"selectioncolor" : [ 0.4, 1.0, 0.4, 0.299919 ],
 					"setmode" : 1,
-					"waveformcolor" : [ 0.784, 0.90200001001358, 1.0, 1.0 ]
+					"waveformcolor" : [ 0.784, 0.90200001001358, 1.0, 0.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-99",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 587.0, 228.0, 173.0, 19.0 ],
-					"text" : "\"Second half bit.aif\""
+					"patching_rect" : [ 587.0, 228.0, 173.0, 29.0 ],
+					"text" : "\"Ice GRM Tone 1 7min CompNorm Bumpify.aif\""
 				}
 
 			}
@@ -1956,7 +1952,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 592.0, 65.0, 74.0, 29.0 ],
-					"text" : "2024.09"
+					"text" : "2026.5"
 				}
 
 			}
@@ -3343,7 +3339,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 27.0, 475.0, 389.5, 20.0 ],
-									"text" : "\"Second half bit.aif\""
+									"text" : "\"Ice GRM Tone 1 7min CompNorm Bumpify.aif\""
 								}
 
 							}
@@ -3362,12 +3358,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-27",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 64.5, 606.0, 271.0, 20.0 ],
-									"text" : "\"AndysAudio6:/Pour Annette/Bits/Second half bit.aif\""
+									"text" : "\"AndysAudio6:/Polar AUDIO/Ice/Ice GRM Tone 1 7min CompNorm Bumpify.aif\""
 								}
 
 							}
@@ -5146,7 +5143,7 @@
 					"fontface" : 1,
 					"fontsize" : 12.0,
 					"id" : "obj-222",
-					"items" : [ "BATcave", ",", "BATfreeze", ",", "BATspindrfit", ",", "BATsvp", ",", "BATwheel", ",", "DAC" ],
+					"items" : [ "BATcave", ",", "BATbumpify", ",", "DAC" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -5372,7 +5369,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 146.0, 124.5, 32.5, 38.0 ],
-									"text" : "11 6 2025"
+									"text" : "5 14 2026"
 								}
 
 							}
@@ -6207,7 +6204,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 130.0, 124.0, 237.0, 18.0 ],
-									"text" : "v 4.27 16 Jun 2016"
+									"text" : "v4 14 May 2026"
 								}
 
 							}
@@ -6478,7 +6475,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 344.5, 78.5, 189.0, 29.0 ],
-					"text" : "$1 6 Nov 2025"
+					"text" : "$1 14 May 2026"
 				}
 
 			}
@@ -6503,7 +6500,7 @@
 					"patching_rect" : [ 187.0, 84.5, 127.5, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, 473.0, 101.5, 17.0 ],
-					"text" : "v 2024.09 6 Nov 2025",
+					"text" : "v 2026.5 14 May 2026",
 					"textcolor" : [ 0.999998986721039, 0.999974012374878, 0.999990999698639, 0.5 ]
 				}
 
@@ -6708,7 +6705,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 163.5, 82.0, 168.0, 19.0 ],
-									"text" : "v 2024.09 6 Nov 2025"
+									"text" : "v 2026.5 14 May 2026"
 								}
 
 							}
@@ -7188,7 +7185,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 11.0,
 					"id" : "obj-58",
-					"items" : [ "Q49", ",", "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "IAC Driver Bus 3", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "to Max 1", ",", "to Max 2", ",", "SQ - MIDI Out", ",", "Vienna Instruments MIDI" ],
+					"items" : [ "Q49", ",", "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "IAC Driver Bus 3", ",", "SQ - MIDI Out", ",", "Vienna Instruments MIDI", ",", "to Max 1", ",", "to Max 2", ",", "nanoKONTROL2 SLIDER/KNOB" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -7806,14 +7803,15 @@
 					"fontsize" : 14.0,
 					"gradient" : 1,
 					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 331.0, 290.0, 24.0 ],
+					"patching_rect" : [ 34.0, 331.0, 290.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 260.5, 91.0, 357.0, 24.0 ],
-					"text" : "Second half bit.aif",
+					"text" : "Ice GRM Tone 1 7min CompNorm Bumpify.aif",
 					"textcolor" : [ 0.996078431606293, 0.996078431606293, 0.996078431606293, 1.0 ]
 				}
 
@@ -11129,140 +11127,140 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "AL.antialias~.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ALcentre_dialogue.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ALdialogue.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ALlist-thresh.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BAT-knob.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BAT-slider-transp3green.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BATicon.jpg",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BATicon.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BATmenu.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BATsamplevoice8~.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BTs.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_BATfader_long.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "brushed-green.jpg",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dialogue2.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "edit_mode_widget.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.BAT_io.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.BATbalance~.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.BATlimiter.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.BATmulti2stereo.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "temperament.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

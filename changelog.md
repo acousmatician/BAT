@@ -1,0 +1,120 @@
+**v2026.03 23.05.2026**  
+BATspindrift - fixed missing impulse files  
+BATboids - added impulse reverb and plate size  
+
+**v2026.03 25.03.2026**  
+BATfreeze - added spectral blur/filter  
+BAT-Tempered Filtbank - added spectrum capture  
+BATpan - fixed ramp interp in stereo mode (thanks to AM for pointing out)  
+Other improvements and bug fixes  
+
+**v2024.09 02.10.2024**  
+BATspindrift added  
+Other improvements and bug fixes  
+
+**v2023.11 08.11.2023**
+Fixed incorrect level controls preventing output  
+Other minor fixes
+
+**v2021.11 15.11.2021**  
+Minor fixes and new version numbers  
+workspace partially working  
+BATboids: bug fixes (thanks to JH for pointing out)  
+
+**v4.15**  
+BATsampler: improved keyboard sustain behaviour  
+BATboids: fixed broken reverb (added missing objects)  
+
+**v4.14 17.09.2019**  
+IMPORTANT: This version and higher for Max 8 only  
+BATsampler8: fixed one channel of waveform not displaying  
+BATsampler8: sustain can now be  triggered with MIDI footswitch  
+BATsampler8: interface tweaks  
+
+**v4.13 21.08.2019**  
+IMPORTANT: This version and higher for Max 8 only  
+All - begun migration to mc (multichannel patching)  
+BATsampler8 – a new version of BATsampler that handles 8-ch files  
+BATboids - added distance reverb  
+BATboids - added ADC input  
+BATshuffle - added MIDI fader control to grain shape  
+
+**v4.12 25.02.2019**  
+Fixed parameters not working in BATshuffle  
+Fixed multiple problems with BATmultishuffle  
+Fixed BATfreeze play not working  
+Fixed sticky BATwheel rotation when using Max 8  
+A few cosmetic tweaks  
+
+**v4.11 25.02.2019**  
+Fixed BATboids glitching at 48kHz sample rate  
+Lots of improvements to BATscrub
+
+**v4.10 31.10.2018**  
+Lots of improvements to BATscrub
+
+**v4.09 25.02.2019**  
+Fixed broken BATscrub interface (no sound when scrubbing)
+
+**v4.08 03.10.2018**  
+Fixed glitching in BATboids (bad circular buffer implementation)
+
+**V4.07 14.08.2018**  
+BATboids speakers fixed
+
+**V4.06 13.08.2018**     
+BATscrub and BATwheel added, various fixes and visual enhancements
+
+**v4.05 26.05.2018**   
+BATshuffle and BATmultishuffle: fixed objects not found;
+All: Module select menu now available in all modules
+
+**v4.04 25.05.2018**. 
+BATshuffle and BATmutlishuffle: fixed objects not found
+
+**v2025.7**. 
+fixed issue with BATcave routing not working in some circumstances
+Fixed some modules' Active button turning off main dsp
+Added string model and spectrum capture to the BAT-temperedfilterbank
+
+**v2023.11**
+Fixed incorrect BATtempfilt in/out levels, BATbump freq and dept
+
+**v2021.7 15 Nov**  
+Minor fixes and new version numbers
+
+**v4.17 20 July 2021**  
+workspace partially working, bug fixes (thanks to JH)
+
+**v4.12 25 Feb 2019**  
+Fixed parameters not working in BATshuffle
+Fixed multiple problems with BATmultishuffle
+Fixed BATfreeze play not working
+Fixed sticky BATwheel rotation when using Max 8
+A few cosmetic tweaks
+
+**v4.11 01 Nov 2018**  
+Fixed BATboids glitching at 48kHz sample rate
+
+**v4.10 31 Oct 2018**   
+Lots of improvements to BATscrub
+
+**v4.09 20 Oct 2018** 
+Fixed broken BATscrub interface (no sound when scrubbing)
+
+**v4.08 03 Oct 2018**  
+Fixed glitching in BATboids (bad circular buffer implementation)
+
+**v4.07 14 Aug 2018** 
+BATboids speakers fixed
+
+**v4.06 13 Aug 2018**  
+BATscrub and BATwheel added, various fixes and tweaks
+
+**v4.05 06 May 2018**  
+BATshuffle and BATmultishuffle: fixed "objects not found"
+
+**v4.04 25 May 2018**  
+first public release of Version 4
+
+

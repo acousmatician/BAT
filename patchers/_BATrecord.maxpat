@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 681.0, 118.0, 317.0, 239.0 ],
+		"rect" : [ 1872.0, 666.0, 317.0, 239.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -94,7 +94,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 388.0, 464.0, 54.0, 53.0 ],
-					"text" : "window size 180 118 676 319"
+					"text" : "window size 401 585 1208 1087"
 				}
 
 			}
@@ -118,10 +118,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 99.700957999999957, 365.0, 108.0, 42.0 ],
+					"patching_rect" : [ 99.700957999999957, 365.0, 88.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.952392578125, 205.0, 411.0, 20.0 ],
-					"text" : "\"Studio 1 INTERNAL:/Users/andylocal/Dropbox/Teaching/Studio Composition Year 1/Studio Composition I 2025-26/Week 10 Streams and Currents – Soundscape Composition and Acoustic Ecology/Ludwig Koch/\"",
+					"presentation_rect" : [ 5.952392578125, 205.0, 302.047607421875, 20.0 ],
+					"text" : "\"AndysAudio6:/Polar AUDIO/Ice/\"",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -190,13 +190,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-48",
-					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.0, 266.349365000000034, 174.0, 87.0 ],
-					"text" : "\"Studio 1 INTERNAL:/Users/andylocal/Dropbox/Teaching/Studio Composition Year 1/Studio Composition I 2025-26/Week 10 Streams and Currents – Soundscape Composition and Acoustic Ecology/Ludwig Koch/\""
+					"patching_rect" : [ 708.0, 266.349365000000034, 175.0, 20.0 ],
+					"text" : "\"AndysAudio6:/Polar AUDIO/Ice/\""
 				}
 
 			}
@@ -632,7 +631,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 561.0, 498.0, 121.590271000000001, 20.0 ],
-									"text" : "681 118 998 357"
+									"text" : "1213 585 1530 824"
 								}
 
 							}
@@ -2374,7 +2373,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 91.0, 64.0, 52.0, 22.0 ],
-									"text" : "2022.08"
+									"text" : "2026.5"
 								}
 
 							}
@@ -10005,35 +10004,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "BAT-knob3.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BAT-slider-transp3red.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BATicon.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_BATfaderRed.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "brushed-red.jpg",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
 				"implicit" : 1

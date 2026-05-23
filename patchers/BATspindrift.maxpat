@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1046.0, 331.0, 986.0, 589.0 ],
+		"rect" : [ 713.0, 74.0, 986.0, 589.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -1309,7 +1309,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1462.0, 730.0, 58.0, 67.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 177.0, 391.0, 58.0, 67.0 ],
+					"presentation_rect" : [ 182.0, 391.0, 58.0, 67.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
 							"expression" : ""
@@ -1416,8 +1416,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1307.0, 711.5, 182.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 125.0, 377.0, 161.0, 19.0 ],
-					"text" : "––––––––––– REVERB –––––––––––",
+					"presentation_rect" : [ 137.0, 377.0, 151.0, 19.0 ],
+					"text" : "–––––––––– REVERB ––––––––––",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1672,7 +1672,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1272.119207501411438, 755.238192021846771, 59.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.0, 387.0, 34.0, 21.0 ],
+					"presentation_rect" : [ 136.0, 387.0, 34.0, 21.0 ],
 					"text" : "Type",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1682,15 +1682,16 @@
 				"box" : 				{
 					"align" : 1,
 					"arrow" : 0,
-					"bgcolor" : [ 0.8, 0.8, 0.8, 0.5 ],
+					"bgcolor" : [ 1.0, 1.0, 0.4, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.8, 0.8, 0.8, 0.5 ],
+					"bgfillcolor_color" : [ 1.0, 1.0, 0.4, 1.0 ],
 					"bgfillcolor_color1" : [ 0.823529, 0.823529, 0.823529, 0.5 ],
 					"bgfillcolor_color2" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
 					"fontsize" : 12.0,
+					"hint" : "Choose artifical plate (FR) or real cathedral (IR) reverb",
 					"id" : "obj-62",
 					"items" : [ "Plate", ",", "Real" ],
 					"maxclass" : "umenu",
@@ -1701,8 +1702,8 @@
 					"patching_rect" : [ 1247.619207501411438, 778.095337808132172, 100.0, 22.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 130.0, 404.0, 39.047624051570892, 22.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"presentation_rect" : [ 140.0, 407.0, 44.266935966487949, 22.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -1809,7 +1810,7 @@
 							"parameter_longname" : "live.dial[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Duration",
+							"parameter_shortname" : "Size",
 							"parameter_type" : 0,
 							"parameter_units" : "SAR/sec",
 							"parameter_unitstyle" : 1
@@ -1817,7 +1818,7 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "live.dial[17]"
 				}
 
@@ -1960,7 +1961,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 530.0, 397.0, 1372.0, 779.0 ],
+						"rect" : [ 373.0, 393.0, 1372.0, 779.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2030,7 +2031,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 461.0, 628.0, 1432.0, 618.0 ],
+										"rect" : [ 542.0, 674.0, 1432.0, 618.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2625,8 +2626,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 80.0, 135.0, 142.0, 20.0 ],
-													"text" : "/load \"York Minster AL 2ch.aif\""
+													"patching_rect" : [ 80.0, 135.0, 118.0, 20.0 ],
+													"text" : "/load CathedralAL2ch.aif"
 												}
 
 											}
@@ -27216,7 +27217,7 @@
 					"patching_rect" : [ 229.163929194326784, 380.0, 421.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 306.796112298965454, 524.582523167133331, 400.0, 24.0 ],
-					"text" : "Sweepdown wheel@.aif",
+					"text" : "Drag sound file here",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.8 ]
 				}
 
@@ -27240,7 +27241,7 @@
 					"maxclass" : "nodes",
 					"nodecolor" : [ 0.588235294117647, 0.0, 0.784313725490196, 1.0 ],
 					"nodenumber" : 64,
-					"nsize" : [ 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015, 0.015 ],
+					"nsize" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -27250,8 +27251,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 302.912617206573486, 11.116504907608032, 400.0, 400.0 ],
 					"textcolor" : [ 0.101960784313725, 0.101960784313725, 0.101960784313725, 0.0 ],
-					"xplace" : [ 0.454827979207039, 0.4959, 0.4569, 0.4083, 0.4357, 0.4651, 0.4014, 0.4789, 0.4499, 0.4295, 0.4296, 0.4529, 0.5128, 0.4754, 0.5275, 0.5566, 0.5657, 0.5122, 0.4206, 0.5243, 0.4739, 0.4481, 0.5776, 0.4576, 0.5859, 0.5796, 0.5322, 0.4885, 0.5176, 0.4745, 0.5559, 0.5753, 0.4896, 0.5882, 0.5837, 0.5886, 0.5328, 0.5407, 0.4891, 0.4868, 0.5182, 0.5836, 0.4621, 0.5054, 0.5028, 0.5749, 0.5763, 0.5606, 0.4302, 0.4189, 0.4583, 0.446, 0.408, 0.4858, 0.5063, 0.416, 0.4257, 0.4617, 0.4209, 0.4235, 0.482, 0.4385, 0.404, 0.4967 ],
-					"yplace" : [ 0.450834865371386, 0.5873, 0.5724, 0.4683, 0.5192, 0.4288, 0.5076, 0.4117, 0.4248, 0.548, 0.5594, 0.4465, 0.4272, 0.4358, 0.4263, 0.4345, 0.4451, 0.418, 0.4622, 0.4122, 0.4385, 0.4533, 0.4787, 0.421, 0.4645, 0.5067, 0.4082, 0.4016, 0.412, 0.4116, 0.4415, 0.5389, 0.4214, 0.5404, 0.4556, 0.478, 0.417, 0.5536, 0.5729, 0.5699, 0.5813, 0.5286, 0.5566, 0.5968, 0.5843, 0.4982, 0.5345, 0.5504, 0.5356, 0.4994, 0.5523, 0.5407, 0.528, 0.593, 0.5913, 0.5477, 0.4392, 0.5649, 0.5422, 0.4563, 0.4258, 0.5363, 0.4798, 0.5822 ]
+					"xplace" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"yplace" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -30552,7 +30553,7 @@
 					"patching_rect" : [ 101.0, 594.0, 51.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 415.533974885940552, 546.912619948387146, 61.0, 22.0 ],
-					"text" : "48000.",
+					"text" : "-",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.8 ]
 				}
 
@@ -30630,7 +30631,7 @@
 					"patching_rect" : [ 185.0, 618.0, 51.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 364.077664911746979, 546.912619948387146, 51.0, 22.0 ],
-					"text" : "8",
+					"text" : "-",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.8 ]
 				}
 
@@ -30882,7 +30883,7 @@
 						"count" : 2,
 						"data" : [ 							{
 								"key" : 1,
-								"value" : [ 719, 53, 1705, 642 ]
+								"value" : [ 713, 74, 1699, 663 ]
 							}
 , 							{
 								"key" : 2,
@@ -30973,7 +30974,7 @@
 					"fontface" : 1,
 					"fontsize" : 12.0,
 					"id" : "obj-275",
-					"items" : [ "BATcave", ",", "BATfreeze", ",", "BATsvp", ",", "BATwheel", ",", "DAC" ],
+					"items" : [ "BATcave", ",", "BATboids", ",", "DAC" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -31517,7 +31518,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 17.925598000000008, -197.5, 270.0, 89.0 ],
-					"pic" : "brushed-green.jpg",
+					"pic" : "brushed-grey.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ -2.0, -2.0, 992.232996106147766, 595.145622909069061 ]
 				}
@@ -33240,7 +33241,7 @@
 			"obj-40::obj-73::obj-32" : [ "live.dial[5]", " ", 0 ],
 			"obj-44" : [ "live.dial[12]", "Envelope", 0 ],
 			"obj-45" : [ "live.dial[3]", "Grain Gain", 0 ],
-			"obj-53" : [ "live.dial[1]", "Duration", 0 ],
+			"obj-53" : [ "live.dial[1]", "Size", 0 ],
 			"obj-97" : [ "live.dial[2]", "Gain", 0 ],
 			"parameterbanks" : 			{
 
@@ -33251,105 +33252,105 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "+k.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "-k.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ALlist-thresh.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BAT-knob.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BAT-slider-transp3green.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BATicon.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BATmenu.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SPDspeakers.png",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_BATfader_long.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "brushed-green.jpg",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/media",
+				"name" : "brushed-grey.jpg",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "edit_mode_widget.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.BAT_io.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.BATbalance~.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.BATlimiter.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.BATmulti2stereo.maxpat",
-				"bootpath" : "~/Dropbox/Andy-Max8/BATv4/patchers",
+				"bootpath" : "~/Dropbox/Andy-Max8/BAT/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
