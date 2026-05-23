@@ -1,5 +1,5 @@
 # BAT - Bangor Audio Tools  
-## v2026.03
+## v2026.05
 
 [www.andrewlewis.org.uk/BAT](https://www.andrewlewis.org.uk/BAT)
 
